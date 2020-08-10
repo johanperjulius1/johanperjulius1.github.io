@@ -1,0 +1,140 @@
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 15px;
+padding: 0;
+margin: 0;
+background-color: black;
+
+}
+
+/*Global*/
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header{
+  background: black;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: white 5px solid;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  
+}
+
+header a:hover{
+  color: yellow;
+  font-weight: bolder;
+}
+
+
+
+header li{
+  float: left;
+  display: inline;
+  padding-top: 0;
+  padding-right: 20;
+  padding-bottom: 0;
+  padding-left: 20; 
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  padding-top: 20;
+}
+
+/* Showcase */
+#showcase{
+  min-height: 400px;
+  /*background: img(./images/showcase.jpg) no-repeat 0;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20;
+  text-align: center;
+  float: center;
+
+}
+
+/*Boxes*/
+
+#boxes .box {
+  float: left; 
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  color: white;
+}
+
+#boxes .box img{
+  
+  height: 200;
+  width: 300px;
+}
+
+/*footer*/
+
+#footer {
+  color: white;
+  text-align: center;
+}
+
+/*newsletter*/
+
+#newsletter {
+  display: block;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#tourDates {
+  color: white;
+  text-align: center;
+}
+
+#video {
+  text-align: center;
+  padding-top: 60px;
+}
+
+#streets img{
+  text-align: center;
+  padding-top: 60px;
+  height: 400px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#streetsText {
+  text-align: center;
+  color: white;
+}
+
